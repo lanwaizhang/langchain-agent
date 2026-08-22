@@ -1,0 +1,18 @@
+langchain
+langchain-community
+langchain-core
+langchain-openai
+tavily-python
+python-dotenv
+langchainhub
+streamlit
+
+#search tool
+beautifulsoup4
+
+#web scraping
+readability-lxml
+trafilatura
+requests
+lxml
+
