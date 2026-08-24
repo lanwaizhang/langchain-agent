@@ -15,6 +15,7 @@ load_dotenv()
 tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
 # ---------- 工具 1：网页搜索 ----------
+@tool
 def web_search(query: str) -> str:
     """
     搜索网络获取最新信息。适用于查询当前事件、新闻、事实资料等。
